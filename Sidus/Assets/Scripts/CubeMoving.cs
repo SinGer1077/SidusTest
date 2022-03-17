@@ -41,7 +41,7 @@ public class CubeMoving : MonoBehaviour
     private void MovingCube(float time)
     {
         _movingCube.position = Bezier.GetPoint(_movingCubeStartPosition, _bezierThirdPoint, transform.position, Mathf.Clamp01(time));
-    }
+    }   
 
     private void SetBezierPoint()
     {
@@ -51,13 +51,6 @@ public class CubeMoving : MonoBehaviour
             (_movingCube.position.z + transform.position.z) / 2
             );
 
-        Vector3 side1 = _movingCube.position - transform.position;
-        Vector3 side2 = center - transform.position;
-
-        Vector3 perpendicular = Vector3.Cross(side1, side2);
-        
-        Vector3 bezierPoint = (center + perpendicular) * _arcRadius;
-
-        _bezierThirdPoint = bezierPoint;
-    }
+        _bezierThirdPoint = new Vector3(center.x, center.y + _arcRadius, center.z);
+    }    
 }

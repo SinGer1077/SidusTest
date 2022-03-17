@@ -122,5 +122,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movingCube: {fileID: 5866222263840928967, guid: 9ecf23605af859a44aca0ed1bfbd2968, type: 3}
-  _arcRadius: 1.5
+  _arcRadius: 4
   _movingTime: 1
