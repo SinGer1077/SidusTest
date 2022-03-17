@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &272155195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5866222263840928967, guid: 9ecf23605af859a44aca0ed1bfbd2968, type: 3}
+  m_PrefabInstance: {fileID: 5866222264105645820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &306180486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -174,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
       value: Cube (3)
@@ -231,6 +240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
       value: Cube (4)
@@ -464,6 +477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
       value: Cube (5)
@@ -520,6 +537,18 @@ PrefabInstance:
     - target: {fileID: 4406081965172030738, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _arcRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingTime
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
@@ -578,6 +607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
       value: Cube (1)
@@ -635,6 +668,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _movingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 9039115341786869624, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: m_Name
       value: Cube
