@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeMoving : MonoBehaviour
+public class CubeMover : MonoBehaviour
 {
     [SerializeField]
     private Transform _movingCube;

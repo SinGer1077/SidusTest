@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CubeRandomRotator : MonoBehaviour
+public class CubeStartRandomRotator : MonoBehaviour
 {   private void Start()
     {
         Quaternion newRotation = new Quaternion();
