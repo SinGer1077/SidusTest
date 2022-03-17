@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingCubeToDefaultResetter : MonoBehaviour
+public class CubeToDefaultResetter : MonoBehaviour
 {
     private Vector3 _defaultPosition;
 
