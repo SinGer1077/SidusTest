@@ -11,6 +11,6 @@ public class CubeStartRandomRotator : MonoBehaviour
 
     private float GetRandomAngle()
     {
-        return Random.Range(-180, 180);
+        return Random.Range(0, 360);
     }
 }

@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _movingCube
       value: 
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _movingCube
       value: 
@@ -477,6 +485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _movingCube
       value: 
@@ -538,6 +550,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _arcRadius
       value: 1
@@ -607,6 +623,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _movingCube
       value: 
@@ -668,6 +688,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6877665590764054450, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
+      propertyPath: _rotatingCube
+      value: 
+      objectReference: {fileID: 272155195}
     - target: {fileID: 8083024602342503711, guid: ec26ee9c965b27545b5c9f6d761b44c9, type: 3}
       propertyPath: _movingCube
       value: 
