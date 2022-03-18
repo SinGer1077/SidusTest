@@ -10,6 +10,8 @@ public class CubeRotator : MonoBehaviour
     [SerializeField]
     private float _rotatingTime;
 
+    public float RotatingTime => _rotatingTime;
+
     private Vector3 _rotatingCubeStartPosition;
 
     public void StartRotate()

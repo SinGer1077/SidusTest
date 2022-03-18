@@ -13,6 +13,8 @@ public class CubeMover : MonoBehaviour
     [SerializeField]
     private float _movingTime;
 
+    public float MovingTime => _movingTime;
+
     private Vector3 _movingCubeStartPosition;
 
     private Vector3 _bezierThirdPoint;

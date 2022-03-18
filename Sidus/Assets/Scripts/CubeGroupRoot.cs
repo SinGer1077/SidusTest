@@ -16,15 +16,25 @@ public class CubeGroupRoot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        MoveByRoot();
+        StartCoroutine(MoveByRoot());
     }
 
-    public void MoveByRoot()
+    public IEnumerator MoveByRoot()
     {
         CubeGroupRoot thisCubeNeighbor = GetNeighbor();
 
-        thisCubeNeighbor.GetComponent<CubeMover>().StartMove();
-        thisCubeNeighbor.GetComponent<CubeRotator>().StartRotate();      
+        CubeMover neighborMover = thisCubeNeighbor.GetComponent<CubeMover>();
+        CubeRotator neighborRotator = thisCubeNeighbor.GetComponent<CubeRotator>();
+
+        float timeToWait = Mathf.Max(neighborMover.MovingTime, neighborRotator.RotatingTime);
+
+        neighborMover.StartMove();
+        neighborRotator.StartRotate();
+
+        yield return new WaitForSeconds(timeToWait);
+
+        this.GetComponent<CubeMover>().StartMove();
+        this.GetComponent<CubeRotator>().StartRotate();
     }
 
     private CubeGroupRoot GetNeighbor()
