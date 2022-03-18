@@ -17,7 +17,7 @@ public class CubeMover : MonoBehaviour
 
     private Vector3 _bezierThirdPoint;
 
-    public void OnMouseDown()
+    public void StartMove()
     {
         StartCoroutine(MoveCubeCoroutine());
     }

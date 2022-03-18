@@ -12,7 +12,7 @@ public class CubeRotator : MonoBehaviour
 
     private Vector3 _rotatingCubeStartPosition;
 
-    public void OnMouseDown()
+    public void StartRotate()
     {        
         StartCoroutine(RotateCubeCoroutine());
     }
